@@ -1,0 +1,172 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f7f3ec;color:#2b211d;font-family:Manrope,sans-serif;line-height:1.6}.topbar{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;padding:18px 6vw;background:rgba(247,243,236,.94);backdrop-filter:blur(12px);border-bottom:1px solid rgba(55,42,34,.08)}.brand{display:flex;gap:12px;align-items:center;text-decoration:none;color:#2b211d;font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:700}.brand span{font-family:Manrope,sans-serif;font-size:14px;letter-spacing:.08em;text-transform:uppercase}.nav{display:flex;gap:26px}.nav a{color:#2b211d;text-decoration:none;font-size:14px}.menu-btn{display:none;background:none;border:0;font-size:24px}.hero{min-height:88vh;display:grid;grid-template-columns:1.08fr .92fr;gap:60px;align-items:center;padding:64px 7vw 88px}.hero h1,.section h2,.quote{font-family:'Cormorant Garamond',serif}.hero h1{font-size:clamp(52px,7.2vw,94px);line-height:.93;margin:0 0 28px;font-weight:600}.hero h1 em{font-style:italic;font-weight:500;color:#8b6b49}.hero p{max-width:650px;font-size:18px;color:#5d4c43}.eyebrow{font-size:12px;letter-spacing:.2em;font-weight:700;color:#9b7a52}.light{color:#dbc7a8}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 20px;border-radius:999px;text-decoration:none;font-size:13px;font-weight:700}.primary{background:#4a372d;color:#fff}.ghost{border:1px solid #4a372d;color:#4a372d}.hero-photo-wrap{position:relative}.hero-photo{width:100%;height:680px;object-fit:cover;object-position:center 18%;border-radius:240px 240px 26px 26px;display:block;box-shadow:0 22px 70px rgba(48,34,26,.12)}.hero-badge{position:absolute;left:-28px;bottom:38px;background:#f5efe7;padding:13px 18px;border-radius:999px;font-size:11px;letter-spacing:.16em;border:1px solid rgba(0,0,0,.08)}.dark{background:#241c18;color:#f8f3ed}.manifesto{padding:96px 7vw}.manifesto-inner{max-width:980px;margin:auto;text-align:center}.quote{font-size:clamp(42px,5.2vw,72px);line-height:1.02;margin:18px 0 28px}.muted-light{color:#d9ccc3;max-width:760px;margin:auto}.section{padding:96px 7vw}.split{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:center}.portrait-frame{overflow:hidden;border-radius:30px;background:#ddd0c0}.portrait-frame img{width:100%;height:620px;object-fit:cover;object-position:center 35%;display:block}.copy h2,.section-head h2,.contact h2{font-size:clamp(44px,5vw,72px);line-height:1;margin:12px 0 14px;font-weight:600}.copy h3{font-size:20px;margin:0 0 24px}.copy p,.section-head p{color:#65534a;max-width:760px}.text-link{color:#4a372d;text-decoration:none;font-weight:700}.soft{background:#eee5da}.section-head{max-width:860px;margin-bottom:46px}.services{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.service{background:#faf7f2;border:1px solid rgba(70,53,44,.08);padding:28px;border-radius:22px;min-height:260px}.service span{font-family:'Cormorant Garamond',serif;font-size:38px;color:#a88a5d}.service h3{font-family:'Cormorant Garamond',serif;font-size:32px;line-height:1.08;margin:12px 0}.service p{color:#66544b}.clinical-grid{display:grid;grid-template-columns:1.2fr .9fr .9fr;gap:18px}.clinical-grid img{width:100%;height:470px;object-fit:cover;border-radius:24px}.clinical-grid img:first-child{object-position:center 28%}.results .section-head p{font-size:14px}.result-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.result-card{margin:0;background:#fff;border-radius:24px;overflow:hidden;border:1px solid rgba(70,53,44,.08)}.result-card img{width:100%;height:560px;object-fit:cover;display:block}.result-card figcaption{display:flex;justify-content:space-between;gap:18px;align-items:center;padding:18px 20px}.result-card b{font-family:'Cormorant Garamond',serif;font-size:28px}.result-card span{font-size:13px;color:#6a594f}.method .section-head p,.contact p{color:#d9ccc3}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}.step{border-top:1px solid rgba(255,255,255,.25);padding-top:22px}.step b{color:#d6bb91}.step h3{font-family:'Cormorant Garamond',serif;font-size:34px;margin:8px 0}.step p{color:#d9ccc3}.formation-list{border-top:1px solid #d9cdc0}.formation-list>div{display:grid;grid-template-columns:80px 1fr;gap:18px;align-items:center;padding:26px 0;border-bottom:1px solid #d9cdc0}.formation-list span{font-family:'Cormorant Garamond',serif;font-size:36px;color:#a88a5d}.formation-list strong{font-size:18px}.science-card{background:#d9cab8;border-radius:32px;min-height:340px;padding:48px;display:flex;align-items:end;background-image:linear-gradient(90deg,rgba(247,243,236,.96),rgba(247,243,236,.72))}.science-card h3{font-family:'Cormorant Garamond',serif;font-size:54px;margin:8px 0}.science-card p{max-width:640px}.contact-inner{max-width:850px}.contact h2{font-size:clamp(54px,7vw,92px)}.light-btn{background:#f7f3ec;color:#241c18}.outline-light{border:1px solid rgba(255,255,255,.55);color:#fff}footer{display:flex;justify-content:space-between;gap:20px;padding:28px 7vw;background:#17110f;color:#eee6df;font-size:13px}footer>div{display:flex;gap:14px;flex-wrap:wrap}.reveal{opacity:0;transform:translateY(18px);transition:.7s ease}.reveal.visible{opacity:1;transform:none}@media(max-width:980px){.nav{display:none;position:absolute;right:6vw;top:70px;flex-direction:column;background:#f7f3ec;padding:18px;border-radius:16px;box-shadow:0 16px 40px rgba(0,0,0,.08)}.nav.open{display:flex}.menu-btn{display:block}.hero,.split{grid-template-columns:1fr}.hero-photo{height:560px}.hero-badge{left:18px}.services,.steps{grid-template-columns:1fr 1fr}.clinical-grid{grid-template-columns:1fr}.clinical-grid img{height:520px}.result-grid{grid-template-columns:1fr}.portrait-frame img{height:520px}}@media(max-width:640px){.section,.manifesto{padding:72px 6vw}.hero{padding:42px 6vw 72px}.hero h1{font-size:56px}.hero-photo{height:500px;border-radius:180px 180px 22px 22px}.services,.steps{grid-template-columns:1fr}.clinical-grid img{height:420px}.result-card img{height:460px}.result-card figcaption{align-items:flex-start;flex-direction:column}.science-card{padding:32px}.science-card h3{font-size:42px}footer{flex-direction:column}.brand span{display:none}}
+
+/* ===== Expansão premium: Técnicas & Procedimentos ===== */
+.techniques{background:#efe7dc}
+.tech-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.tech-group{
+  background:#f9f6f1;
+  border:1px solid rgba(73,56,46,.08);
+  border-radius:26px;
+  padding:34px;
+  min-height:280px
+}
+.tech-number{
+  font-family:'Cormorant Garamond',serif;
+  font-size:36px;
+  color:#a88a5d
+}
+.tech-group h3{
+  font-family:'Cormorant Garamond',serif;
+  font-size:36px;
+  line-height:1.08;
+  margin:10px 0 24px
+}
+.tech-pills{display:flex;flex-wrap:wrap;gap:10px}
+.tech-pills span{
+  display:inline-flex;
+  padding:10px 14px;
+  border-radius:999px;
+  border:1px solid rgba(73,56,46,.16);
+  background:#fffaf4;
+  font-size:12px;
+  line-height:1.25
+}
+.tech-cta{text-align:center;margin-top:30px}
+
+/* Atuação clínica com legendas editoriais */
+.clinical-item{margin:0}
+.clinical-item img{width:100%;height:470px;object-fit:cover;border-radius:24px;display:block}
+.clinical-item figcaption{
+  margin-top:12px;
+  font-family:'Cormorant Garamond',serif;
+  font-size:24px;
+  color:#5b4a41
+}
+
+/* Casos em destaque: composição mais editorial */
+.results .result-grid{align-items:start}
+.results .result-card:first-child{grid-row:span 1}
+.results .result-card:first-child img{height:620px}
+.results .result-card:nth-child(2) img{height:500px}
+.results .result-card:nth-child(3) img{height:500px}
+.results .result-card:nth-child(4) img{height:560px}
+
+@media(max-width:980px){
+  .tech-grid{grid-template-columns:1fr 1fr}
+  .clinical-item img{height:520px}
+}
+@media(max-width:640px){
+  .tech-grid{grid-template-columns:1fr}
+  .tech-group{padding:26px}
+  .clinical-item img{height:420px}
+  .results .result-card img,
+  .results .result-card:first-child img,
+  .results .result-card:nth-child(2) img,
+  .results .result-card:nth-child(3) img,
+  .results .result-card:nth-child(4) img{height:460px}
+}
+
+
+/* ===== Técnicas clicáveis ===== */
+.tech-pills .tech-pill{
+  appearance:none;
+  display:inline-flex;
+  align-items:center;
+  padding:10px 14px;
+  border-radius:999px;
+  border:1px solid rgba(73,56,46,.16);
+  background:#fffaf4;
+  color:#2b211d;
+  font:500 12px/1.25 'Manrope',sans-serif;
+  cursor:pointer;
+  transition:transform .18s ease, box-shadow .18s ease, background .18s ease;
+}
+.tech-pills .tech-pill:hover,
+.tech-pills .tech-pill:focus-visible{
+  transform:translateY(-2px);
+  background:#fff;
+  box-shadow:0 8px 24px rgba(73,56,46,.10);
+  outline:none;
+}
+.tech-pills .tech-pill::after{
+  content:" +";
+  margin-left:5px;
+  color:#a88a5d;
+  font-weight:700;
+}
+.tech-modal{
+  position:fixed;
+  inset:0;
+  z-index:10000;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:22px;
+}
+.tech-modal.is-open{display:flex}
+.tech-modal-backdrop{
+  position:absolute;
+  inset:0;
+  background:rgba(28,20,16,.58);
+  backdrop-filter:blur(5px);
+}
+.tech-modal-dialog{
+  position:relative;
+  z-index:1;
+  width:min(560px,100%);
+  background:#f9f6f1;
+  color:#2b211d;
+  border-radius:28px;
+  padding:38px;
+  box-shadow:0 30px 90px rgba(0,0,0,.24);
+}
+.tech-modal-dialog h3{
+  font-family:'Cormorant Garamond',serif;
+  font-size:42px;
+  line-height:1.05;
+  margin:10px 0 18px;
+}
+.tech-modal-dialog p{
+  color:#65534a;
+  margin:0 0 26px;
+}
+.tech-modal-close{
+  position:absolute;
+  top:16px;
+  right:18px;
+  width:38px;
+  height:38px;
+  border-radius:50%;
+  border:1px solid rgba(73,56,46,.15);
+  background:transparent;
+  color:#49382e;
+  font-size:25px;
+  cursor:pointer;
+}
+body.modal-open{overflow:hidden}
+@media(max-width:640px){
+  .tech-modal-dialog{padding:30px 24px}
+  .tech-modal-dialog h3{font-size:34px}
+}
+
+
+/* Integração entre áreas de atuação e procedimentos */
+.tech-summary{
+  color:#66544b;
+  margin:-8px 0 22px;
+  max-width:520px;
+  font-size:14px;
+}
+
+
+/* ===== Ajustes Milena Oliveira: galeria completa de resultados ===== */
+.results .result-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.results .result-card img,
+.results .result-card:first-child img,
+.results .result-card:nth-child(2) img,
+.results .result-card:nth-child(3) img,
+.results .result-card:nth-child(4) img{height:auto;aspect-ratio:auto;object-fit:contain;background:#f3eee8}
+.results .result-card figcaption{display:block;padding:18px 20px}
+.results .result-card figcaption b{display:block;margin-bottom:8px}
+.results .result-card figcaption span{display:block;line-height:1.55}
+@media(max-width:640px){.results .result-grid{grid-template-columns:1fr}.results .result-card img{height:auto}}
